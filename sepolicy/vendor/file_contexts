@@ -93,3 +93,6 @@
 
 # Debugfs
 /sys/kernel/debug/system_stats                                                          u:object_r:debugfs:s0
+
+# tombstones
+/data/vendor/tombstones/rfs(/.*)?      u:object_r:rfs_tombstone_data_file:s0
