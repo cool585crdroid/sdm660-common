@@ -495,4 +495,7 @@
          provisioning, availability etc -->
     <bool name="config_carrier_vt_available">true</bool>
 
+    <!-- Whether device ignores the RSSNR signal implementation -->
+     <bool name="config_ignoreRssnrSignalLevel">true</bool>
+
 </resources>
