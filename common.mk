@@ -324,6 +324,11 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libprotobuf-cpp-full
 
+# Graphics
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.egl=adreno \
+    ro.hardware.vulkan=adreno
+
 # Recovery
 TARGET_RECOVERY_DENSITY := xhdpi
 
